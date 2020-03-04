@@ -1,7 +1,7 @@
-FROM ruby:2.6.5
+FROM ruby:2.7.0
 
 LABEL "name"="Locomotive"
-LABEL "version"="0.0.1"
+LABEL "version"="0.0.2"
 
 ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn
 ENV BUNDLE_PATH='/bundle/vendor'
